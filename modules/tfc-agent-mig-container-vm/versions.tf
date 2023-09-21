@@ -31,8 +31,4 @@ terraform {
       version = ">= 3.4.3, < 4.0"
     }
   }
-
-  provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-tf-cloud-agents:tfc-agent-mig-container-vm/v0.1.0"
-  }
 }

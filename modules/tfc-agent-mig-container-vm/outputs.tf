@@ -29,16 +29,6 @@ output "mig_instance_template" {
   value       = module.mig_template.name
 }
 
-output "network_name" {
-  description = "Name of the VPC"
-  value       = local.network_name
-}
-
-output "subnet_name" {
-  description = "Name of the subnet in the VPC"
-  value       = local.subnet_name
-}
-
 output "service_account_email" {
   description = "Service account email attached to MIG templates for GCE"
   value       = local.service_account_email

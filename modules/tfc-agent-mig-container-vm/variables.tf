@@ -25,17 +25,6 @@ variable "region" {
   default     = "us-central1"
 }
 
-variable "create_network" {
-  type        = bool
-  description = "When set to true, VPC, router and NAT will be auto created"
-  default     = false
-}
-
-variable "network_name" {
-  type        = string
-  description = "Name for the VPC network"
-}
-
 variable "subnetwork_project" {
   type        = string
   description = <<-EOF
