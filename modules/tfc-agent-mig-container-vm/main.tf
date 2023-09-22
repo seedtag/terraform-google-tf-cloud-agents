@@ -162,6 +162,6 @@ module "mig" {
   instance_template  = module.mig_template.self_link
 
   /* autoscaler */
-  autoscaling_enabled = true
+  autoscaling_enabled = false
   cooldown_period     = var.cooldown_period
 }
